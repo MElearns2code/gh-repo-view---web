@@ -1,0 +1,90 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+.body{
+  /* font-weight: 300; */
+  background-color: rgb(236, 236, 255);
+}
+
+h1{
+  font-size: 28px;
+  color: rgb(38, 147, 255);
+  padding-top: 10px;
+}
+
+h2{
+  font-size: 22px;
+  color: cornflowerblue;
+}
+
+h4{
+  font-size: 15px;
+  color: rgb(2, 2, 121);
+}
+
+p{
+  font-size: 18px;
+  color: rgb(2, 2, 121);
+  margin: 30px;
+}
+
+.sm-link{
+  font-size: 18px;
+  color: white;
+  background-color: slateblue;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.card-white {
+  font-family: 'Poppins';
+  background: white;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  margin: 20px;
+  text-align: center;
+}
+
+.sm-list > li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+}
+
+.profile-img{
+  width: 25%;
+}
+
+.contact-button{
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(165, 157, 216);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 280px;
+  }
+}
